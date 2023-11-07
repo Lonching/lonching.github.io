@@ -1,0 +1,183 @@
+* {box-sizing: border-box;}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin:0;
+  padding: 0;
+  background-color:rgb(203, 82, 82);
+  color: white;
+}
+img {
+  max-width:150%;
+  height: auto;
+}
+
+a {
+   text-decoration:none;
+  }
+
+a:hover {
+  color:cornflowerblue;
+}
+
+main {
+  width: 100vw;
+  height:100vh;
+  scroll-snap-type: y mandatory; /* Apply scroll snapping to the main container */
+  overflow-y: scroll; /* Enable vertical scrolling */
+  scroll-behavior: smooth;
+}
+
+body.subpage01 header {
+  background-color:rgb(240, 175, 90);
+}
+
+header {
+  color:rgb(203, 82, 82);
+  background-color:rgb(82, 196, 203);
+  width:100%;
+  padding: 20px 0px 0 0px;
+  position:fixed;
+  top:0;
+  left:0;
+  right:0;
+}
+header h1 {
+text-align:center
+}
+nav {
+
+  width:100%
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+nav ul { 
+  list-style:none;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  margin:0;
+  padding: 0%;
+}
+nav li {
+  box-sizing;border-box; 
+  flex: 1;
+  background-color:rgb(150, 208, 211);
+  padding:0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  transition: background-color 0.3s;
+}
+
+nav li:hover {
+  background-color: #fff;
+}
+
+nav li a {
+  color: white;
+}
+
+nav li:nth-child(1) {
+  background-color: rgb(203, 82, 82);
+}
+
+nav li:nth-child(2) {
+  background-color: rgb(98, 193, 136)
+}
+
+nav li:nth-child(3) {
+  background-color: rgb(99, 103, 197)
+}
+
+nav li:nth-child(4) {
+  background-color: rgb(216, 111, 97)
+}
+
+nav li:nth-child(5) {
+  background-color: rgb(172, 201, 201);
+}
+
+
+nav li:not(:last-child) {
+  border: 0px solid #fff;
+}
+
+nav li a:hover {
+  color:rgb(255, 255, 255);
+}
+
+
+.border {
+  border: 1px solid black;
+}
+
+.flexbox {
+
+  display:flex;
+  width:80%;
+  margin:auto;
+  margin-top:60px;
+}
+.flexbox .left {
+  flex:60%;
+  padding-top: 100px;
+}
+.flexbox .right {
+  flex:40%;
+  padding: 0px 50px;
+  padding-top: 40px;
+}
+.zod-table {
+  display:flex;
+}
+
+.full-screen-section {
+  scroll-snap-align: start;
+  padding: 100px;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.full-screen-section:nth-child(2) {
+  background-color: rgb(98, 193, 136);
+}
+
+.full-screen-section:nth-child(3) {
+  background-color: rgb(99, 103, 197);
+}
+
+.full-screen-section:nth-child(4) {
+  background-color: rgb(216, 111, 97);
+}
+
+.full-screen-section:nth-child(5) {
+  background-color: rgb(172, 201, 201);
+}
+
+.nav-box {
+  box-sizing: border-box;
+  padding: 5px 138px; /* Adjust these values to control the size and alignment */
+  color: white;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.nav-box:hover {
+  background-color: rgba(255, 255, 255, 0.405); /* Change the color on hover if needed */
+}
+
+.nav-box:active {
+  background-color: transparent; /* Make the background transparent when clicked */
+}
