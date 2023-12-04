@@ -1,4 +1,12 @@
-* {box-sizing: border-box;}
+/* 
+font-family: 'Chivo', sans-serif;
+font-family: 'Koulen', sans-serif;
+font-family: 'Rosario', sans-serif;
+*/
+
+* {
+  box-sizing: border-box;
+}
 html {
   scroll-behavior: smooth;
 }
@@ -44,7 +52,9 @@ header {
   right:0;
 }
 header h1 {
-text-align:center
+box-sizing: content-box;
+text-align:center;
+margin: -40px;
 }
 nav {
 
@@ -64,6 +74,7 @@ nav ul {
   margin:0;
   padding: 0%;
 }
+
 nav li {
   box-sizing;border-box; 
   flex: 1;
@@ -76,6 +87,8 @@ nav li {
   transition: background-color 0.3s;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
+  font-family: 'Chivo', sans-serif;
+  
 }
 
 nav li:hover {
@@ -124,18 +137,92 @@ nav li a:hover {
 
   display:flex;
   width:80%;
-  margin:auto;
   margin-top:60px;
 }
 .flexbox .left {
+  margin:auto;
+  margin-left: -100px;
   flex:60%;
   padding-top: 100px;
 }
 .flexbox .right {
+  margin:auto;
   flex:40%;
   padding: 0px 50px;
-  padding-top: 40px;
+  padding-top: 8%;
 }
+
+.flexbox .lefter {
+  margin:auto;
+  flex:33.3%;
+  padding-top: 100px;
+  margin-left: -100px;
+
+}
+
+.flexbox .righter {
+  flex:33.3%;
+  padding: 0px 100px;
+  padding-top: 210px;
+  margin-right: -110px;
+  margin-left: 200px;
+
+}
+.flexbox .righter img{
+  width: 70%;
+  height: auto;
+}
+
+.flexbox .rightest {
+  flex:33.3%;
+  padding: 0px 0px 0px;
+  padding-top: 190px;
+  padding-bottom: 100px;
+  margin-right: -200px;
+  margin-left: 0px;
+}
+
+.flexbox .rightest p {
+  margin-bottom: 50px; /* Adjust the margin as needed */
+}
+
+.flexbox .rightest h4 {
+  margin-bottom: 10px; /* Adjust the margin as needed */
+}
+
+
+h1{
+  font-family: 'Koulen', sans-serif;
+  font-size: 96px;
+}
+
+h2{
+  font-family: 'Chivo', sans-serif;
+  font-size: 36px;
+  margin-bottom: -90px;
+  
+}
+
+h3{
+  font-family: 'Chivo', sans-serif;
+  font-size: 72px;
+  margin-bottom: -15px;
+}
+
+h4{
+  font-family: 'Rosario', sans-serif;
+  font-size: 28px;
+  font-weight: normal;
+  font-style: normal;
+}
+
+p{
+  font-family: 'Rosario', sans-serif;
+  font-size: 12px;
+  font-weight: normal;
+  font-style: normal;
+}
+
 .zod-table {
   display:flex;
 }
