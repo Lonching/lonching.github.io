@@ -1,0 +1,139 @@
+/*
+font-family: 'Bitter', serif;
+font-family: 'Merriweather Sans', sans-serif;
+font-family: 'Raleway', sans-serif;
+*/
+
+ /* COLORS
+CSS HEX
+--mantis: #7bbc66ff;
+--yellow-green: #b2d45fff;
+--brunswick-green: #285d50ff;
+--sea-green: #20956eff;
+SCSS RGB
+$mantis: rgba(123, 188, 102, 1);
+$yellow-green: rgba(178, 212, 95, 1);
+$brunswick-green: rgba(40, 93, 80, 1);
+$sea-green: rgba(32, 149, 110, 1);
+*/
+
+* {
+    box-sizing:border-box;
+  }
+  img {
+    width:100%;
+    
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #7bbc66ff;
+    padding: 0px 30px 0px; /* Adjust padding as needed */
+    border-radius: 20px;
+    color: white;
+    margin: 50px;
+    box-shadow: 5px 5px 20px white;
+    font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+    font-size: 40px;}
+
+h2 {
+    text-align: right;
+    max-width: 80%;
+    padding-right: -500px;
+    padding-bottom: 50px;
+    position: absolute; /* Set the position property to absolute */
+    right: 1px;
+}
+
+h2 a {
+    display: flex;
+}
+
+h2 img {
+    width: 70%;
+    height: auto;
+}
+h3{
+    font-family:'Raleway', sans-serif;
+    font-size: 30px;
+    margin: 10px;
+    }
+
+h4{
+    font-family:'Bitter', serif;
+    font-size: 25px;  
+}
+
+  body {
+    margin:0;
+    background-image: url('images/Jungle\ Background.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+    font-family: 'Merriweather';
+    font-size: 35px;
+    }
+
+.contentbox{
+    box-sizing: content-box;
+    background: white;
+    border:20px solid #20956eff;
+    border-radius: 20px;
+    margin: 50px;
+    padding: 30px;
+    box-shadow: 5px 5px 20px white;
+    }
+.projectheader{
+    box-sizing:border-box;
+    background: #20956eff;
+    color: white;
+    border-radius: 20px;
+    margin-left: 50px;
+    padding: 0px 30px 0px;    
+    box-shadow: 5px 5px 20px white;
+    display: inline-block;
+    width: auto;
+}
+
+.cards1{
+  display:flex;
+  margin:30px;
+}
+
+.cards2{
+    display:flex;
+    margin:30px;
+  }
+  
+.card {
+  flex:33.3%;
+  background-color:white;
+  font-family: 'Pixelify Sans', sans-serif;
+  padding:30px;
+  border-radius: 20px;
+  border:20px solid #20956eff;
+  box-shadow: 5px 5px 20px white;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.card img {
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  
+}
+
+.button {
+  display: inline-block;
+  background-color: #285d50ff;
+  color: white;
+  text-decoration:none;
+  padding: 8px 12px;
+}
+.button:hover {
+  background-color: #b2d45fff;
+}
