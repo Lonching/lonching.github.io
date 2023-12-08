@@ -262,3 +262,20 @@ form {
             align-items: center;
             color: white;
         }
+        .flexbox .leftest {
+            flex:50%;
+            margin-left: 100px;
+            margin-top: 20px;
+            color: white;
+          }
+        .flexbox .rightest {
+            flex: 50%;
+            margin-left: 100px;
+
+        }
+            .flexbox .rightest img{
+                flex: 50%;
+                width: 80%;
+                border-radius: 20px;
+                box-shadow: 7px 11px 10px rgba(0, 0, 0, 0.5);
+            }
